@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "thumbnail": "https://i.ibb.co/6DP5D1v/Rectangle-2-5.png",
+      "course_name": "Introduction to Programming",
+      "course_description": "Learn the basics of programming with this introductory course.",
+      "price": 49.99,
+      "time": 30
+    },
+    {
+      "id": 2,
+      "thumbnail": "https://i.ibb.co/bF4zbwr/Rectangle-2-6.png",
+      "course_name": "Web Development Fundamentals",
+      "course_description": "A comprehensive guide to building websites and web applications.",
+      "price": 79.99,
+      "time": 45
+    },
+    {
+      "id": 3,
+      "thumbnail": "https://i.ibb.co/wJQx7Fd/Rectangle-3.png",
+      "course_name": "Data Science Essentials",
+      "course_description": "Explore the world of data science and analytics with this course.",
+      "price": 59.99,
+      "time": 60
+    },
+    {
+      "id": 4,
+      "thumbnail": "https://i.ibb.co/xHv7d6K/Rectangle-3-1.png",
+      "course_name": "Graphic Design Masterclass",
+      "course_description": "Unlock your creativity and become a professional graphic designer.",
+      "price": 69.99,
+      "time": 40
+    },
+    {
+      "id": 5,
+      "thumbnail": "https://i.ibb.co/m0kcJR2/Rectangle-2.png",
+      "course_name": "Machine Learning for Beginners",
+      "course_description": "Dive into the fundamentals of machine learning and AI.",
+      "price": 89.99,
+      "time": 50
+    },
+    {
+      "id": 6,
+      "thumbnail": "https://i.ibb.co/tY54PK2/Rectangle-2-1.png",
+      "course_name": "Digital Marketing Fundamentals",
+      "course_description": "Learn the essentials of digital marketing and online advertising.",
+      "price": 59.99,
+      "time": 35
+    },
+    {
+      "id": 7,
+      "thumbnail": "https://i.ibb.co/Wgq36DS/Rectangle-2-2.png",
+      "course_name": "Photography Basics",
+      "course_description": "Capture stunning photographs with this beginner's photography course.",
+      "price": 49.99,
+      "time": 25
+    },
+    {
+      "id": 8,
+      "thumbnail": "https://i.ibb.co/z7BkZ7p/Rectangle-2-3.png",
+      "course_name": "Financial Planning 101",
+      "course_description": "Master the art of financial planning and budgeting.",
+      "price": 39.99,
+      "time": 30
+    },
+    {
+      "id": 9,
+      "thumbnail": "https://i.ibb.co/jDnJYHz/Rectangle-2-4.png",
+      "course_name": "Cooking Essentials",
+      "course_description": "Learn to cook delicious meals with this cooking essentials course.",
+      "price": 29.99,
+      "time": 20
+    }
+  ]
+  
