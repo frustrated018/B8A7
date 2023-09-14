@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Initializing Project</h1>
+      <h1 className='text-stone-900 text-[32px] font-bold text-center my-12'>Course Registration</h1>
     </>
   )
 }
