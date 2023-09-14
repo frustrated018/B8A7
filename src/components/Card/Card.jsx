@@ -6,23 +6,29 @@ const Card = ({ card }) => {
 
   return (
     <div>
-      <div className="card bg-slate-300 shadow-xl">
-        <figure className="px-4 pt-5">
+      <div className=" bg-slate-300 shadow-xl rounded-xl">
+        <figure className="px-4 py-5">
+            {/* Thumbnail */}
           <img
             src={thumbnail}
             alt={`thumbnail for ${course_name}`}
             className="rounded-xl"
           />
         </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title text-stone-900 text-lg font-semibold truncate">{course_name}</h2>
-          <p className="text-stone-900 text-opacity-60 text-sm font-normal">{course_description}</p>
-          <div className=" flex justify-between gap-5">
+        {/* Text content */}
+        <div className=" flex flex-col text-center">
+            {/* Title */}
+          <h2 className="text-stone-900 text-lg font-semibold truncate mb-4">{course_name}</h2>
+          {/* description */}
+          <p className="text-stone-900 text-opacity-60 text-sm font-normal mb-5 mx-4">{course_description}</p>
+          {/* price & time */}
+          <div className=" flex justify-around gap-5 mb-6">
           <p className="text-stone-900 text-opacity-60 text-base font-medium">Price : {price} tk</p>
           <p className="text-stone-900 text-opacity-60 text-base font-medium">Credit : {time} hr</p>
           </div>
-          <div className="card-actions">
-            <button className="btn btn-primary">Select</button>
+          {/* Button */}
+          <div className=" mb-4">
+            <button className="bg-blue-500 rounded-lg border border-blue-500  h-10 w-[90%] text-white text-lg font-semibold">Select</button>
           </div>
         </div>
       </div>
