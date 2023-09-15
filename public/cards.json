@@ -5,7 +5,7 @@
       "course_name": "Introduction to Programming",
       "course_description": "Learn the basics of programming with this introductory course.",
       "price": 49.99,
-      "time": 30
+      "time": 2
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "course_name": "Web Development Fundamentals",
       "course_description": "A comprehensive guide to building websites and web applications.",
       "price": 79.99,
-      "time": 45
+      "time": 3
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "course_name": "Data Science Essentials",
       "course_description": "Explore the world of data science and analytics with this course.",
       "price": 59.99,
-      "time": 60
+      "time": 4
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "course_name": "Graphic Design Masterclass",
       "course_description": "Unlock your creativity and become a professional graphic designer.",
       "price": 69.99,
-      "time": 40
+      "time": 9
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "course_name": "Machine Learning for Beginners",
       "course_description": "Dive into the fundamentals of machine learning and AI.",
       "price": 89.99,
-      "time": 50
+      "time": 6
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "course_name": "Digital Marketing Fundamentals",
       "course_description": "Learn the essentials of digital marketing and online advertising.",
       "price": 59.99,
-      "time": 35
+      "time": 5
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "course_name": "Photography Basics",
       "course_description": "Capture stunning photographs with this beginner's photography course.",
       "price": 49.99,
-      "time": 25
+      "time": 2
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "course_name": "Financial Planning 101",
       "course_description": "Master the art of financial planning and budgeting.",
       "price": 39.99,
-      "time": 30
+      "time": 3
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "course_name": "Cooking Essentials",
       "course_description": "Learn to cook delicious meals with this cooking essentials course.",
       "price": 29.99,
-      "time": 20
+      "time": 8
     }
   ]
   
