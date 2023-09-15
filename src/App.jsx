@@ -19,7 +19,8 @@ function App() {
 
     const alreadyAdded = cart.find((course) => course.id == card.id);
     if (alreadyAdded) {
-      return alert("you can only select onece");
+      alert("you can only select onece");
+      return;
     } else {
 
       // Balance calculating function
@@ -28,17 +29,21 @@ function App() {
         count += element.price;
       });
 
-      setTotal(count)
-
-
+      
+      
       // Credit counting function
       cart.forEach(element => {
-          time += element.time
+        time += element.time
       })
-
+      
+      if (time > 20) {
+        alert("You can not have more than 20 hrs of Credit at one time");
+        return;
+      }
+      
       setTime(time);
       setRemainingCredit(remainingCredit - card.time);
-
+      setTotal(count)
 
       setCart([...cart, card]);
     }
