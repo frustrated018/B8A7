@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import CartItem from "../Cart Item/CartItem";
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, total }) => {
   return (
     <>
       <div className="w-[312px] h-[355px] bg-white rounded-xl border border-red-500">
@@ -12,6 +12,7 @@ const Cart = ({ cart }) => {
           ))}
         </div>
         <div className="w-[85%] h-[0px] border border-stone-900 border-opacity-20 mx-auto"></div>
+        <div>Total Price: {total}</div>
       </div>
     </>
   );
