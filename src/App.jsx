@@ -5,10 +5,16 @@ import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
 
 function App() {
+  // Select button related function
   const [cart, setCart] = useState([]);
 
   const handlSelect = (card) => {
-    setCart([...cart, card]);
+    const alreadyAdded = cart.find((course) => course.id == card.id);
+    if (alreadyAdded) {
+      return alert("you can only select onece");
+    } else {
+      setCart([...cart, card]);
+    }
   };
 
   return (
