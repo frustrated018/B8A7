@@ -28,8 +28,6 @@ function App() {
       cart.forEach(element => {
         count += element.price;
       });
-
-      
       
       // Credit counting function
       cart.forEach(element => {
