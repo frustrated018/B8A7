@@ -1,22 +1,21 @@
 import PropTypes from "prop-types";
-
 import { FiDollarSign } from "react-icons/fi";
 import { GoBook } from "react-icons/go";
 
-const Card = ({ card }) => {
+const Card = ({ card, handlSelect }) => {
   const { thumbnail, course_name, course_description, price, time } = card;
 
   return (
     <div>
       <div className=" bg-slate-300 shadow-xl rounded-xl">
-        <figure className="px-4 py-5">
+        <div className="">
           {/* Thumbnail */}
           <img
             src={thumbnail}
             alt={`thumbnail for ${course_name}`}
-            className="rounded-xl"
+            className="rounded-xl w-[90%] m-auto pt-4"
           />
-        </figure>
+        </div>
         {/* Text content */}
         <div className=" flex flex-col text-center">
           {/* Title */}
@@ -44,7 +43,9 @@ const Card = ({ card }) => {
           </div>
           {/* Button */}
           <div className=" mb-4">
-            <button className="bg-blue-500 rounded-lg border border-blue-500  h-10 w-[90%] text-white text-lg font-semibold">
+            <button
+            onClick={()=>handlSelect(card)}
+             className="bg-blue-500 rounded-lg border border-blue-500  h-10 w-[90%] text-white text-lg font-semibold">
               Select
             </button>
           </div>
@@ -56,6 +57,7 @@ const Card = ({ card }) => {
 
 Card.propTypes = {
   card: PropTypes.object.isRequired,
+  handlSelect : PropTypes.func.isRequired,
 };
 
 export default Card;
