@@ -70,7 +70,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className=" md:flex gap-6 mx-[40px]">
+      <div className=" lg:flex gap-6 mx-[40px]">
         <Cards handlSelect={handlSelect}></Cards>
         <div>
           <Cart
@@ -79,7 +79,6 @@ function App() {
             time={time}
             remainingCredit={remainingCredit}
           ></Cart>
-          <div className="w-[85%] h-[0px] border border-stone-900 border-opacity-20 mx-auto"></div>
         </div>
       </div>
       {/* Toast container related style */}

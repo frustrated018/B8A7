@@ -30,13 +30,13 @@ const Card = ({ card, handlSelect }) => {
           <div className=" flex flex-row justify-evenly mb-6">
               <div className="flex flex-row gap-1 items-center">
                 <FiDollarSign />
-                <p className="text-stone-900 text-opacity-60 text-base font-medium">
+                <p className="text-stone-900 text-opacity-60 text-lg font-medium">
                   Price : {price} 
                 </p>
               </div>
               <div className="flex flex-row gap-1 items-center">
                 <GoBook />
-                <p className="text-stone-900 text-opacity-60 text-base font-medium">
+                <p className="text-stone-900 text-opacity-60 text-lg font-medium">
                   Credit : {time}hr
                 </p>
               </div>
