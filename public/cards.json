@@ -3,7 +3,7 @@
       "id": 1,
       "thumbnail": "https://i.ibb.co/Wgq36DS/Rectangle-2-2.png",
       "course_name": "Introduction to C Programming",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Learn the fundamentals of C programming, from variables to control structures, and begin your journey into the world of coding.",
       "price": 150,
       "time": 1
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "thumbnail": "https://i.ibb.co/z7BkZ7p/Rectangle-2-3.png",
       "course_name": "Introduction to Algorithms",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Dive into the world of algorithms, mastering problem-solving techniques and analyzing efficient solutions for a wide range of computational tasks.",
       "price": 250,
       "time": 2
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "thumbnail": "https://i.ibb.co/jDnJYHz/Rectangle-2-4.png",
       "course_name": "Introduction to C++ for DSA",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Delve into C++ with an emphasis on data structures and algorithms, laying a robust for development.",
       "price": 490,
       "time": 10
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "thumbnail": "https://i.ibb.co/wJQx7Fd/Rectangle-3.png",
       "course_name": "Basic Data Structures",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": " Gain a solid understanding of essential data structures like arrays, linked lists, and trees, and their applications in solving real-world problems.",
       "price": 350,
       "time": 5
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "thumbnail": "https://i.ibb.co/m0kcJR2/Rectangle-2.png",
       "course_name": "Introduction to OOP Python",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Discover the principles of Object-Oriented Programming (OOP) using Python, enabling you to design and build robust software systems.",
       "price": 690,
       "time": 6
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "thumbnail": "https://i.ibb.co/6DP5D1v/Rectangle-2-5.png",
       "course_name": "Software Engineering",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Learn the principles of software development, and maintenance, ensuring efficient and reliable software production.",
       "price": 230,
       "time": 2
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "thumbnail": "https://i.ibb.co/xHv7d6K/Rectangle-3-1.png",
       "course_name": "AWS, Cloud Computing",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Explore Amazon Web Services (AWS) and the world of cloud computing, deployment, and scaling for modern applications.",
       "price": 320,
       "time": 6
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "thumbnail": "https://i.ibb.co/tY54PK2/Rectangle-2-1.png",
       "course_name": "Database (MySQL)",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Dive into the world of databases with a focus on MySQL, learning how to design, manage, and query relational databases efficiently.",
       "price": 190,
       "time": 3
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "thumbnail": "https://i.ibb.co/bF4zbwr/Rectangle-2-6.png",
       "course_name": "Problem-Solving Part",
-      "course_description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "course_description": "Develop your problem-solving skills, using logical thinking and algorithms to tackle complex challenges across various domains.",
       "price": 290,
       "time": 8
     }
