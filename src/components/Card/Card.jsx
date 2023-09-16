@@ -7,19 +7,19 @@ const Card = ({ card, handlSelect }) => {
 
   return (
     <div>
-      <div className=" bg-slate-300 shadow-xl rounded-xl">
-        <div className="">
+      <div className=" bg-white rounded-xl">
+        <div className=" pt-5">
           {/* Thumbnail */}
           <img
             src={thumbnail}
             alt={`thumbnail for ${course_name}`}
-            className="rounded-xl w-[90%] m-auto pt-4"
+            className=" w-[90%] mx-4 rounded-xl"
           />
         </div>
         {/* Text content */}
         <div className=" flex flex-col text-center">
           {/* Title */}
-          <h2 className="text-stone-900 text-lg font-semibold truncate mb-4">
+          <h2 className="text-stone-900 text-lg font-semibold truncate my-4">
             {course_name}
           </h2>
           {/* description */}
