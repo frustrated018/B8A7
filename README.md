@@ -1,5 +1,6 @@
 Website Preview
-![Website preview Image]{https://i.ibb.co/SJj6cgR/Screenshot-45.png}
+
+![Website preview Image](https://i.ibb.co/SJj6cgR/Screenshot-45.png)
 
 
 - Course Selection: Users can select and add courses to their cart by clicking the "Select" button on each course card. The page keeps track of the selected courses.
