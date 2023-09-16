@@ -21,7 +21,7 @@ const Cart = ({ cart, total, time, remainingCredit }) => {
         </div>
         <div className="w-[85%] h-[0px] border border-stone-900 border-opacity-20 mx-auto my-4"></div>
         <div className=" text-stone-900 text-opacity-80 text-base font-bold ml-6 mb-6">
-          Total Price: {total}
+          Total Price: {total} USD
         </div>
       </div>
     </>
